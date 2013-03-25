@@ -1,0 +1,521 @@
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+body {
+  background-image: url('../img/bg.png');
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.none {
+  margin:0;
+  padding:0;
+}
+
+.right {
+  float: right;
+}
+
+.maincontainer {
+  width: 100%;
+}
+
+
+
+
+/* ==========================================================================
+   Navigation bar styles
+   ========================================================================== */
+
+.navbar {
+  margin-bottom:0;
+  color: #777777;
+}
+
+.navbar h4 {
+  float: right;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color:white;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+ul.nav li a {
+  padding: 10px 15px 10px;
+}
+
+.navbar-inner {
+  min-height:0px;
+}
+
+.navbar-inverse .navbar-inner {
+  background-image: url('../img/header_bg.png');
+  background-repeat: repeat;
+  border-top-width: 5px;
+  border-top-color: #ea6006;
+  border-bottom-color: black;
+  border-bottom-width: 0;
+}
+
+.navbar .brand {
+  float: left;
+  padding: 35px 20px 10px;
+  margin-left: -20px;
+
+}
+
+.navbar .btn-navbar {
+  margin: 20px 2px 2px 2px;
+  float:left;
+}
+
+.btn-group li {
+  float:left;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Custom typography styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'franchiseregular';
+    src: url('franchise-bold-hinted-webfont.eot');
+    src: url('franchise-bold-hinted-webfont.eot?#iefix') format('embedded-opentype'),
+         url('franchise-bold-hinted-webfont.woff') format('woff'),
+         url('franchise-bold-hinted-webfont.ttf') format('truetype'),
+         url('franchise-bold-hinted-webfont.svg#franchiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+  font-family: 'franchiseregular';
+  text-transform: uppercase;
+  font-size: 82px;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 0;
+  padding-left: 3px;
+  letter-spacing: 0.1em; 
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Open Sans Condensed';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Bitter', serif;
+  font-size: 14px;
+  font-weight: 200;
+  padding-left: 5px;
+  line-height: 20px;
+  color: #424242;
+}
+
+
+.blue {
+  color: #46b5c9;
+}
+
+.orange {
+  color: #ea6006;
+}
+
+.gray {
+  color: #424242;
+}
+
+a {
+  text-decoration: underline;
+  color: #46b5c9;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Flexslider styles
+   ========================================================================== */
+
+ol {
+  display:none;
+}
+
+.flexslider {
+  z-index: -3;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Homepage header styles
+   ========================================================================== */
+
+.callout {
+  z-index: 500;
+  margin-top: -62%;
+}
+
+.callout img {
+  margin:auto;
+  padding: 0 10px 10px 8px;
+}
+
+.span8 {
+  text-align: center;
+  margin: auto;
+}
+
+.box {
+  border: 2px solid;
+  color: #424242;
+}
+
+.callout h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #424242;
+  float:left;
+  padding-left: 70px;
+  padding-right: 5px;
+}
+
+.callout h1 {
+  float:left;
+  padding-top: 10px;
+}
+
+.span10 p {
+  margin:auto;
+}
+
+.span10 .row-fluid {
+  clear: both;
+}
+
+img.header {
+  width: 100%;
+  z-index: 500;
+  margin-top: 60px;
+}
+
+body img .vs {
+  width:100%;
+  z-index: 500;
+  margin-top: 100px;
+}
+
+.clearheader {
+  margin-top: 40%;
+  padding-bottom: 15px;
+}
+
+
+.p {
+  margin-top: 20px;
+}
+
+.info {
+  padding-left: 5px;
+  line-height: 25px;
+}
+
+
+hr.orange {
+  color: #ea6006;
+  background-color: #ea6006;
+  border: none;
+  height: 8px;
+  width: 100%;
+  margin:0;
+  padding:0;
+  opacity: 1.0;
+}
+
+hr.skinny {
+  height: 4px;
+}
+
+.registerbutton {
+  border: 2px solid #424242;
+  background-color: white;
+  color: #ea6006;
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  width: 215px;
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:10px 10px #424242; 
+}
+
+a.registernow {
+  text-decoration: none;
+}
+
+.registerbutton:hover {
+  background-color: #ea6006;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Homepage styles
+   ========================================================================== */
+
+h1.aboutthe {
+  font-family: 'franchiseregular', serif;
+  font-size: 58px;
+  float:left;
+  padding-left: 10px;
+}
+
+h1.reception {
+  font-size: 105px;
+  text-align: left;
+  line-height: 102px;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+h3.info {
+  text-transform: none;
+  font-size: 19px;
+}
+
+h4.date {
+  margin-top: 35px;
+}
+
+
+.alignleft {
+  padding-left: 70px;
+  padding-right: 10px;
+}
+
+.span10 p {
+  margin-left: -15px;
+  text-align: left;
+  line-height: 28px;
+  font-size: 19px;
+}
+
+.border {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-left: 4px solid #424242;
+}
+
+hr {
+  border-top: 2px solid #424242;
+  border-bottom: 2px solid #424242;
+  opacity: 0.58;
+  height: 2px;
+  width: 30%;
+  float:left;
+  margin: 2%;
+}
+
+.button {
+  border: 4px solid white;
+  background-color: #424242;
+  color: white;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px;
+  width: 100%;
+  text-align: center;
+  margin-bottom:0;
+  padding-bottom:0;
+  margin:auto;
+}
+
+.span5 .offset2 div.button {
+  margin-left: -205px;
+}
+
+
+
+
+
+/* ==========================================================================
+   Footer styles
+   ========================================================================== */
+
+footer .span4 {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.twitter ul li {
+  list-style: none;
+  padding-bottom: 15px;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+}
+
+.twitter ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#twitter_div {
+  margin-top: 15px;
+}
+
+footer .button {
+  border: 2px solid white;
+  padding: 5px;
+  margin-top: 22px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  width: 210px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+}
+
+footer .middle {
+  padding-left: 41px;
+}
+
+footer {
+  background-color:#424242;
+  color:white;
+}
+
+footer p {
+  padding-bottom: 15px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  padding-left: 0;
+  font-weight: 300;
+}
+
+footer h5 {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+footer em {
+  text-transform: uppercase;
+  font-family: 'Bitter', serif;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
