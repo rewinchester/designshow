@@ -35,7 +35,6 @@ body {
 
 
 
-
 /* ==========================================================================
    Navigation bar styles
    ========================================================================== */
@@ -312,6 +311,7 @@ img.header {
   width: 100%;
   z-index: 500;
   margin-top: 60px;
+  padding: 0;
 }
 
 body img .vs {
@@ -321,7 +321,7 @@ body img .vs {
 }
 
 .clearheader {
-  margin-top: 40%;
+  margin-top: 42%;
   padding-bottom: 15px;
 }
 
