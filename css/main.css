@@ -2,6 +2,7 @@
    Custom styles
    ========================================================================== */
 
+
 body {
   background-image: url('../img/bg.png');
   font-family: Arial, sans-serif;
@@ -28,7 +29,9 @@ body {
 
 .maincontainer {
   width: 100%;
+  margin-top: 3.5%;
 }
+
 
 
 
@@ -38,21 +41,67 @@ body {
    ========================================================================== */
 
 .navbar {
-  margin-bottom:0;
+  margin-bottom: 50px;
   color: #777777;
 }
 
-.navbar h4 {
-  float: right;
+.navbar hr {
+  color: #ea6006;
+  background-color: #ea6006;
+  border: none;
+  height: 8px;
+}
+
+.navbar p {
+  float: left;
   color: white;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 0.1em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-right: 5%;
+}
+
+.twittericon {
+  margin-top: 1.2%;
+  font-weight: 300;
+}
+
+.mapicon {
+  font-weight: 300;
+}
+
+div.entyposocial {
+  font-family: 'entypo_social';
+  color: white;
+  font-size: 52px;
+  float: left;
+  clear:none;
+}
+
+div.entypo {
+  font-family: 'entypo';
+  font-size: 52px;
+  float: left;
+  clear:none;
+}
+
+.navbar h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
 }
 
 .navbar a {
   text-decoration: none;
-  color:white;
+  color: #b2b2b2;
   font-weight: 700;
   letter-spacing: 0.1em;
+}
+
+.navbar a:hover {
+  color: white;
 }
 
 ul.nav li a {
@@ -60,7 +109,11 @@ ul.nav li a {
 }
 
 .navbar-inner {
-  min-height:0px;
+  max-height: 40px;
+}
+
+.navbar .container {
+  max-height: 40px;
 }
 
 .navbar-inverse .navbar-inner {
@@ -76,7 +129,6 @@ ul.nav li a {
   float: left;
   padding: 35px 20px 10px;
   margin-left: -20px;
-
 }
 
 .navbar .btn-navbar {
@@ -202,8 +254,8 @@ ol {
 
 .flexslider {
   z-index: -3;
+  overflow: hidden;
 }
-
 
 
 
@@ -461,6 +513,10 @@ footer .middle {
   padding-left: 41px;
 }
 
+footer .right {
+  padding-left: 20px;
+}
+
 footer {
   background-color:#424242;
   color:white;
@@ -499,7 +555,27 @@ footer em {
 
 
 
+/* Mobile Styles */
 
+@media only screen and (max-device-width: 980px) {
+  
+  .border {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .date {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .alignleft {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+
+  }
 
 
 
