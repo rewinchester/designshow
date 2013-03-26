@@ -63,10 +63,15 @@ body {
   padding-right: 5%;
 }
 
-.twittericon {
-  margin-top: 1.2%;
+p.twittericon {
+  margin-top: 5%;
   font-weight: 300;
+  color: #b2b2b2;
+  letter-spacing: 0.1em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
 }
+
 
 .mapicon {
   font-weight: 300;
@@ -78,6 +83,7 @@ div.entyposocial {
   font-size: 52px;
   float: left;
   clear:none;
+  margin-top: 5%;
 }
 
 div.entypo {
@@ -85,6 +91,7 @@ div.entypo {
   font-size: 52px;
   float: left;
   clear:none;
+  margin-top: 5%;
 }
 
 .navbar h4 {
@@ -299,10 +306,6 @@ ol {
   padding-top: 10px;
 }
 
-.span10 p {
-  margin:auto;
-}
-
 .span10 .row-fluid {
   clear: both;
 }
@@ -377,7 +380,10 @@ a.registernow {
   color: white;
 }
 
-
+.homepage {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 
 
@@ -408,6 +414,7 @@ h1.reception {
 h3.info {
   text-transform: none;
   font-size: 19px;
+  line-height: 28px;
 }
 
 h4.date {
@@ -420,11 +427,11 @@ h4.date {
   padding-right: 10px;
 }
 
-.span10 p {
-  margin-left: -15px;
+.span10 p.aboutsection {
   text-align: left;
   line-height: 28px;
   font-size: 19px;
+  margin: auto;
 }
 
 .border {
@@ -544,38 +551,6 @@ footer em {
   font-family: 'Bitter', serif;
   font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* Mobile Styles */
-
-@media only screen and (max-device-width: 980px) {
-  
-  .border {
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .date {
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .alignleft {
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-
-  }
 
 
 
